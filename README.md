@@ -21,7 +21,7 @@ Exemplo de codificação:
 <h3>Efeito Matrix Rain:</h3>
 Para o efeito Matrix Rain, foi utilizado o código publicado no repositório <a href="https://github.com/willianjusten/labs/blob/main/matrix-rain/index.html" target="_blank">matrix-rain</a>
 pelo <a href="https://github.com/willianjusten" target="_blank">willianjusten</a>.
-O arquivo JS foi modificado no width e heith do canvas, passando a ter um valor personalizado.
+O arquivo JS foi modificado no width e height do canvas, passando a ter um valor personalizado.
 <br><br>
 
 <h3>Codificação e decodificação:</h3>
