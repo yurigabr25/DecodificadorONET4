@@ -89,7 +89,7 @@ body {
 
 .resultado {
   position: absolute;
-  border: solid green 1px;
+  border: none;
   border-radius: 10px;
   margin-top: -700px;
   margin-left: 15px;
