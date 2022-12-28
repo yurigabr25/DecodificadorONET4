@@ -7,12 +7,15 @@
 1 - Deve funcionar apenas com letras minúsculas<br>
 2 - Não devem ser utilizados letras com acentos nem caracteres especiais<br>
 3 - Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+
 <br><br>
+
 Exemplo de codificação:
 <br>
 "gato" => "gaitober"
 <br>
 "gaitober" => "gato"
+
 <br><br>
 
 <h3>Efeito Matrix Rain:</h3>
@@ -23,5 +26,9 @@ O arquivo JS foi modificado no width e heith do canvas, passando a ter um valor 
 
 <h3>Codificação e decodificação:</h3>
 A codificação do texto foi feita pelo método <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace" target="_blank">replace</a>
+<br><br>
 
-
+<h3>Programas utilizados</h3>
+1 - Adobe Photoshop 2021 <br>
+2 - Adobe Premiere 2021 <br>
+3 - Visual Studio Code <br>
