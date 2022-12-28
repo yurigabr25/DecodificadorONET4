@@ -1,8 +1,7 @@
 # Challenge Decodificador de Textos Oracle ONE - T4
 ## Primeiro desafio do Oracle ONE
+## <a href="https://yurigabr25.github.io/challengeDecodificadorT4/" target="_blank">Decodificador</a>
 <h3> Nesse desafio foi pedido a criação de um site que fosse capaz de codificar e decodificar textos</h3>
-
-URL: https://yurigabr25.github.io/challengeDecodificadorT4/
 
 <h3>Regras:</h3>
 1 - Deve funcionar apenas com letras minúsculas<br>
