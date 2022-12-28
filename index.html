@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Decodificador de Textos</title>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <h1 class="titulo">a</h1>
+        </header>
+        <div class="main">
+            <img class="tela" src="imagens/tela.gif">
+            <textarea class="escrevaMensagem" id="escrevaMensagem" type="text" placeholder=" Digite seu texto aqui" autofocus style="resize: none;"></textarea>
+
+            <div class="botoes">
+                <button onclick="cript()" class="criptografar">Criptografar</button>
+                <button onclick="descript()" class="descriptografar">Descriptografar</button>
+                <button id="copiar" class="copiar" data-ref="copiarTexto">Copiar</button>
+            </div>
+    
+            <div class="regras">
+                <h3 class="tituloRegras">Regras:</h3>
+                <p>Não usar letras maiúsculas;</p>
+                <p>Não usar acentos;</p>
+                <p>Não usar caracteres especiais (@!#%).</p>
+            </div>
+
+            <div class="exibeMensagem">
+                <!-- O código "matrix rain" foi adaptado ao tamanho personalizado do canvas nesse código -->
+                <canvas class="matrix" id="matrix" width="270px" height="756px"></canvas>
+                <textarea class="resultado" id="resultado" placeholder="Seu texto" style="resize: none;"></textarea>
+            </div>
+
+            
+            
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="copyright">&copy; Copyright Yuri Gabriel - 2022</p>
+        <a href="https://github.com/yurigabr25" target="_blank"><button class="contato">Contato</button></a>
+    </footer>
+    <script src="javascript/script.js" deter></script>
+    <script src="javascript/matrix.js" deter></script>
+</body>
+</html>

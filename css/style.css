@@ -1,0 +1,207 @@
+header {
+  border: solid black 1px;
+  border-radius: 10px;
+  height: 60px;
+  margin-bottom: 40px;
+  color: green;
+}
+
+.titulo {
+  position: static;
+  margin-top: 0px;
+  width: 100%;
+  height: 75px;
+  font-size: 90px;
+  text-align: center;
+  color: green;
+  transition: 400ms;
+  cursor:context-menu;
+}
+
+.titulo:hover {
+  color: #0A3871;
+  transition: 400ms;
+}
+
+body {
+  background: black;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    border: solid green 1px;
+    border-radius: 10px;
+    width: 940px;
+    height: 780px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.tela {
+  text-align: center;
+  float: right;
+  width: 590px;
+  height: 396px;
+  margin-right: -515px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: solid green 1px;
+}
+
+.escrevaMensagem {
+  position: absolute;
+  width: 550px;
+  height: 337px;
+  margin-top: 74px;
+  margin-right: 345px;
+  background: #0c0c0c;
+  border: none;
+  border-radius: 10px;
+  color: green;
+  font-size: 20px;
+  transition: 400ms;
+}
+
+.escrevaMensagem:hover {
+  transform: scale(1.01);
+  transition: 400ms;
+}
+
+.escrevaMensagem::placeholder {
+  color: green;
+  font-size: 20px;
+}
+
+.exibeMensagem {
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 270px;
+  height: 756px;
+}
+
+.matrix {
+  border: solid black 1px;
+}
+
+.resultado {
+  position: absolute;
+  border: solid green 1px;
+  border-radius: 10px;
+  margin-top: -700px;
+  margin-left: 15px;
+  width: 240px;
+  height: 500px;
+  color: green;
+  font-size: 20px;
+  background: black;
+}
+
+.resultado::placeholder {
+  color: green;
+  font-size: 25px;
+  text-align: center;
+}
+
+.copiar {
+  color: green;
+  width: 200px;
+  height: 49px;
+  font-size: 20px;
+  color: green;
+  border: solid green 2px;
+  background: black;
+  border-radius: 10px;
+  transition: 400ms;
+  cursor: pointer;
+  margin-left: 595px;
+  margin-top: 205px;
+  
+}
+
+.botoes {
+  display: inline-block;
+  position: absolute;
+  margin-top: 450px;
+  margin-right: 400px;
+  width: 440px;
+  height: 70px;
+  transition: 400ms;
+}
+
+.criptografar:hover, .descriptografar:hover, .copiar:hover, .contato:hover {
+  background: green;
+  color: black;
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+.criptografar, .descriptografar {
+  width: 200px;
+  height: 49px;
+  font-size: 20px;
+  color: green;
+  border: solid green 2px;
+  background: black;
+  border-radius: 10px;
+  transition: 400ms;
+  cursor: pointer;
+}
+
+.criptografar {
+  margin-right: 30px;
+}
+
+.tituloRegras {
+  font-size: 24px;
+}
+
+.regras {
+  color: green;
+  width: 230px;
+  height: 200px;
+  margin-top: 535px;
+  margin-right: 329px;
+  font-size: 18px;
+}
+  
+footer {
+  border-radius: 10px;
+  border: solid black 1px;
+  height: 100px;
+  margin-top: 10px;
+  color: green;
+}
+
+.copyright {
+  position: static;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-right: 48,95%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.social {
+  position: relative;
+  margin-top: 20px;
+  border: solid green 1px;
+}
+
+.contato {
+  position: static;
+  margin-top: 10px;
+  margin-left: 47%;
+  width: 130px;
+  height: 40px;
+  color: green;
+  background: black;
+  border: solid green 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
