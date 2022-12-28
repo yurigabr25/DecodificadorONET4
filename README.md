@@ -2,8 +2,6 @@
 ## Primeiro desafio do Oracle ONE
 <h3> Nesse desafio foi pedido a criação de um site que fosse capaz de codificar e decodificar textos</h3>
 
-<img src="https://thumbs2.imgbox.com/48/94/U4fTBSO4_t.gif" alt="image host"/>
-
 <h3>Regras:</h3>
 1 - Deve funcionar apenas com letras minúsculas<br>
 2 - Não devem ser utilizados letras com acentos nem caracteres especiais<br>
