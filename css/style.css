@@ -206,3 +206,67 @@ footer {
   cursor: pointer;
 }
 
+@media screen and (max-width: 480px) {
+  .main {
+    position: static;
+    width: 300px;
+    height: 910px;
+    border: none;
+  }
+  
+  .escrevaMensagem {
+    margin-top: 20px;
+    width: 300px;
+    margin-right: -3px;
+    border: solid green 1px;
+  }
+
+  .tela {
+    display: none;
+    margin-right: 500px;
+  }
+
+  .botoes {
+    width: 300px;
+    margin-top: 390px;
+    margin-right: 0px;
+  }
+
+  .criptografar, .descriptografar {
+    width: 132px;
+    height: 70px;
+    margin-top: 0px;
+    font-size: 15px;
+  }
+
+  .copiar {
+    margin-top: 415px;
+    margin-left: 50px;
+  }
+
+  canvas {
+    width: 270px;
+    height: 450px;
+  }
+
+  .exibeMensagem {
+    margin-top: 490px;
+    margin-right: 15px;
+    height: 410px;
+    border-radius: 5px;
+  }
+
+  .resultado {
+    width: 250px;
+    height: 300px;
+    margin-top: -400px;
+    margin-left: 5px;
+  }
+
+  .contato {
+    margin-top: -40px;
+    margin-left: 110px;
+  }
+
+}
+
