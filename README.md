@@ -16,7 +16,7 @@ Exemplo de codificação:
 <br>
 "gaitober" => "gato"
 
-<br><br>
+<br>
 
 <h3>Efeito Matrix Rain:</h3>
 Para o efeito Matrix Rain, foi utilizado o código publicado no repositório <a href="https://github.com/willianjusten/labs/blob/main/matrix-rain/index.html" target="_blank">matrix-rain</a>
